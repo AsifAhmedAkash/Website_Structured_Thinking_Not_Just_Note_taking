@@ -319,4 +319,33 @@ nav .btn-without-icon {
 #Early-access .Early-access-container .Early-access-header {
     font-size: 48px;
     font-weight: 700;
+    padding-bottom: 16px;
+}
+
+#Early-access .Early-access-container .Early-access-subheader {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+#Early-access button {
+    background-color: #30B868;
+    border: 1px solid #30B868;
+    border-radius: 4px;
+    padding: 8px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#Early-access .Early-access-footer {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 80px;
 }
