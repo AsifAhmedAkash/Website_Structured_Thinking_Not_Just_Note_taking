@@ -314,6 +314,7 @@ nav .btn-without-icon {
     flex-direction: column;
     justify-content: center;
     background-color: #F7F6F2;
+    padding-top: 80px;
 }
 
 #Early-access .Early-access-container .Early-access-header {
@@ -348,4 +349,70 @@ nav .btn-without-icon {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 80px;
+}
+
+footer {
+    margin-top: 120px;
+    padding-top: 120px;
+    background-color: #001931;
+}
+
+footer .footer-container {
+    width: 84%;
+    max-width: 1360px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+footer .footer-container .social-link p {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 16px;
+}
+
+footer .footer-container .social-link ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    align-items: center;
+}
+
+footer .footer-container .social-link .circle {
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 3px solid white;
+}
+
+footer .footer-container .social-link i {
+    color: #000000;
+}
+
+hr {
+    width: 1360px;
+    max-width: 84%;
+    height: 1px;
+    /* border: 1px solid red; */
+    margin: 0 auto 30px;
+    background-color: rgba(152, 186, 253, 0.274);
+    border: none;
+
+}
+
+footer .copyright {
+    width: 84%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
