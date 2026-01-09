@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+
 }
 
 /* shared style */
@@ -21,6 +22,16 @@
     height: auto;
 
 }
+
+.text-color-dark-blue {
+    color: #001931;
+}
+
+.text-color-light-blue {
+    color: #627382;
+}
+
+
 
 /* main style */
 
@@ -68,7 +79,7 @@ nav .btn-without-icon {
 }
 
 #banner {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -156,4 +167,27 @@ nav .btn-without-icon {
     gap: 8px;
     color: #ffffff;
     text-align: center;
+}
+
+#second-brain .second-brain-container {
+    border: 1px solid red;
+    width: 84%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#second-brain .second-brain-container .section-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#second-brain .second-brain-container .section-heading .title {
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 40px;
 }
