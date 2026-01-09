@@ -169,8 +169,8 @@ nav .btn-without-icon {
     text-align: center;
 }
 
-#second-brain .second-brain-container {
-    border: 1px solid red;
+#notes .notes-container {
+    /* border: 1px solid red; */
     width: 84%;
     max-width: 1360px;
     align-items: center;
@@ -178,9 +178,10 @@ nav .btn-without-icon {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 120px;
 }
 
-#second-brain .second-brain-container .section-heading {
+#notes .notes-container .section-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,28 +189,28 @@ nav .btn-without-icon {
 }
 
 
-#second-brain .second-brain-container .section-heading .title {
+#notes .notes-container .section-heading .title {
     font-weight: 700;
     font-size: 48px;
     padding-top: 40px;
     text-align: center;
 }
 
-#second-brain .second-brain-container .section-heading .subtitle {
+#notes .notes-container .section-heading .subtitle {
     font-weight: 400;
     font-size: 16px;
     padding-top: 16px;
     text-align: center;
 }
 
-#second-brain .second-brain-container .card-group {
+#notes .notes-container .card-group {
     display: flex;
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#second-brain .second-brain-container .card-group .card {
+#notes .notes-container .card-group .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,7 +223,7 @@ nav .btn-without-icon {
     padding-top: 69.5px;
 }
 
-#second-brain .second-brain-container .card-group .card .circle {
+#notes .notes-container .card-group .card .circle {
     background: rgba(249, 85, 85, 1);
     width: 60px;
     height: 60px;
@@ -234,20 +235,69 @@ nav .btn-without-icon {
     margin-bottom: 16px;
 }
 
-#second-brain .second-brain-container .card-group .card .circle img {
+#notes .notes-container .card-group .card .circle img {
     width: 32px;
     height: 32px;
     object-fit: contain;
     display: block;
 }
 
-#second-brain .second-brain-container .card-group .card .card-heading {
+#notes .notes-container .card-group .card .card-heading {
     font-weight: 600px;
     font-size: 24px;
     margin-bottom: 16px;
 }
 
-#second-brain .second-brain-container .card-group .card .card-details {
+#notes .notes-container .card-group .card .card-details {
     font-weight: 400px;
     font-size: 16px;
+}
+
+#second-brain .second-brain-container {
+    border: 1px solid red;
+    width: 84%;
+    max-width: 1360px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+
+#second-brain .second-brain-container .knowledge-detailes .solution {
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 16px;
+
+}
+
+#second-brain .second-brain-container .knowledge-detailes .section-heading {
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+#second-brain .second-brain-container .knowledge-detailes .section-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+#second-brain .second-brain-container .knowledge-detailes .section-list li {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 16px;
+}
+
+#second-brain .second-brain-container .knowledge-detailes .section-list img {
+    width: 20px;
+    height: 20px;
+}
+
+#second-brain .second-brain-container .knowledge-detailes .section-list p {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 25, 49, 1);
+
 }
